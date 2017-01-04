@@ -1,2 +1,4 @@
 /ENV
 /hubot-data
+/deployment.env
+/codeship.aes
