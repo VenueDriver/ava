@@ -1,0 +1,4 @@
+#- service: app
+  #name: push_stable_to_s3
+  #tag: codeship/ci
+  #command: /bin/bash -c "grunt build && grunt aws_s3:staging2"

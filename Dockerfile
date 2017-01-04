@@ -4,7 +4,7 @@ FROM node:4.4.3-slim
 RUN \
   npm install -g coffee-script hubot yo generator-hubot && \
   rm -rf /var/lib/apt/lists/*
-RUN npm install hubot-google-images hubot-youtube hubot-fliptable hubot-tell --save
+RUN npm install hubot-google-images hubot-youtube hubot-fliptable hubot-tell hubot-jira-bot hubot-slack --save
 # make user for bot
 # yo requires uid/gid 501
 RUN groupadd -g 501 hubot && \
